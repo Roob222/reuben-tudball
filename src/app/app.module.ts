@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import {RouterModule} from "@angular/router";
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -12,11 +14,13 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     AboutMeComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
