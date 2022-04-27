@@ -1,17 +1,26 @@
 
+
+.what-this{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 .navbar navbar-expand-sm bg-dark navbar-dark{
-  width: 100%;
-  justify-content: right;
-  display:flex;
+  width: 500%;
+  display:inline-flex;
 }
 
 .navbar-nav{
   font-size: xx-large;
   display: -webkit-inline-flex;
+  mat-align-tabs: center;
 }
 
-.name-anim h1{
-
+.navbar h1{
+  padding-right: 4em;
+  font-size: xxx-large;
 }
 
 
@@ -35,13 +44,10 @@
 
 }
 
-.navbar-nav ul{
-
-}
 
 .navbar-nav li{
 
-  margin-left: 5em;
+  margin-left: 3em;
   font-size: xx-large;
   list-style: none;
   vertical-align: center;

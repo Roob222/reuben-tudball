@@ -1,0 +1,14 @@
+.playArea{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.playArea h2{
+  text-align: center;
+}
+
+.playArea ul{
+  list-style: none;
+  text-align: center;
+}
