@@ -1,0 +1,32 @@
+
+.contact-area{
+  font-size: x-large;
+  text-align: center;
+}
+
+.contact-area h1{
+  padding-left: 1.25em;
+}
+
+.contact-area ul{
+  list-style: none;
+}
+
+.contact-area li{
+  padding-top: 2em;
+}
+
+
+.contact-area a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact-area li img{
+  filter: grayscale(100%);
+  border-radius: 50%;
+  max-height: 40px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  horiz-align: left;
+}
